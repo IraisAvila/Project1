@@ -1,0 +1,22 @@
+.navbar {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+.nav-list {
+    list-style-type: none;
+}
+.nav-list .list-item {
+    display: inline-block;
+    padding: 15px 12px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: green;
+}

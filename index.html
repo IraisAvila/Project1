@@ -12,22 +12,36 @@
         <div>
             <a href="#">LOGO</a>
         </div>
-        <ul class="nav-list">
-            <li>
-                <a>About Me</a>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a href="#">About Me</a>
             </li>
-            <il>
-                <a>Skills</a>
+            <il class="list-item"></il>
+                <a href="#">Skills</a>
             </il>
-            <li>
-                <a>Projects</a>
+            <li class="list-item"></li>
+                <a href="#">Projects</a>
             </li>
-            <li>
-                <a>Contact</a>
+            <li class="list-item"></li>
+                <a href="#">Contact</a>
             </li>
         </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
     </nav>
     <h1>Welcome</h1>
     <script src="main,js"></script>
 </body>
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    })
+</script>
 </html>

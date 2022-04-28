@@ -14,8 +14,9 @@ h1 {
 /*Header 2 all other headers*/
 h2 {
     text-align: center;
-    font-size: 30px;
-    text-shadow: darkgray;
+    font-size: 50px;
+    padding-top: 50px;
+
 }
 
 /*Header 3 contact header*/
@@ -23,7 +24,8 @@ h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    padding-top: 30px;
 }
 /*paragraph about me*/
 p {
@@ -96,6 +98,12 @@ p {
     .nav-list .list-item {
         display: block;
     }
+    .project-list {
+        position: absolute;
+    }
+    .skills {
+        display:grid;
+    }
 }
 
 .active {
@@ -162,4 +170,9 @@ p {
     width: 100%;
     height: 720px;
 }
-
+#Aboutme img {
+    width: 60%;
+    height: auto;
+    padding-left: 300px;
+    padding-top: 30px;
+}

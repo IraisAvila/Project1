@@ -15,6 +15,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 30px;
+    text-shadow: darkgray;
+    opacity: 60%;
 }
 
 /*Header 3 contact header*/
@@ -131,7 +133,7 @@ p {
 
 .projects .project-list {
     float: center;
-    padding-left: 430px;
+    padding-left: 400px;
 }
 
 .projects .project-list img {
@@ -139,9 +141,26 @@ p {
     height: auto;
 
 }
+.projects p {
+    text-align: center;
+    font-size: 17px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
 /*Animation for Welcome header*/
 .animation {
     animation-duration: 10s;
     animation-name: bounceIn;
   }
+.icons {
+    text-align: center;
+
+}
+.fa-brands {
+    color: black;
+}
+.fa-solid {
+    color: black;
+}
+

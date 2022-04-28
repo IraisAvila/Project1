@@ -7,13 +7,14 @@
 /*Header 1 Welcome header*/
 h1 {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
 }
 
 /*Header 2 all other headers*/
 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 /*Header 3 contact header*/
@@ -21,10 +22,12 @@ h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    font-size: 30px;
 }
 /*paragraph about me*/
 p {
     text-align: center;
+    font-size: 20px;
 }
 
 /*Navigation bar*/
@@ -119,8 +122,26 @@ p {
   }
   /*List of skills*/
 .skills .list-item {
-    text-align: right;
     text-decoration: none;
-    padding-right: 150px;
-    font-size: 25px;
+    align-items: right;
+    font-size: 17px;
+    display: inline-block;
+    padding-left: 150px;
 }
+
+.projects .project-list {
+    float: center;
+    padding-left: 430px;
+}
+
+.projects .project-list img {
+    width: 500px;
+    height: auto;
+
+}
+
+/*Animation for Welcome header*/
+.animation {
+    animation-duration: 10s;
+    animation-name: bounceIn;
+  }

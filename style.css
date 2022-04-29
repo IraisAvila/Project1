@@ -6,6 +6,9 @@
     text-align: center;
     
 }
+body {
+    background-color:wheat;
+}
 /*Header 1 Welcome header*/
 h1 {
     text-align: center;
@@ -115,17 +118,6 @@ p {
     display: block;
 }
   
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: white;
-  }
   /*List of skills*/
 .skills .list-item {
     text-decoration: none;
@@ -141,8 +133,9 @@ p {
 }
 
 .projects .project-list img {
-    width: 500px;
+    width:60%;
     height: auto;
+    align-items: center;
 
 }
 .projects p {

@@ -6,10 +6,13 @@
   text-align: center;
 }
 body {
-  background-image: url("https://ucarecdn.com/6541f2b3-7594-4e23-afe1-2fc0645eb62e/");
-  background-position: auto;
-  background-size: 100%;
-  background-repeat: repeat-y;
+
+  background-color:hsla(184,26%,56%,1);
+  background-image:
+  radial-gradient(at 53% 48%, hsl(54, 73%, 84%) 0px, transparent 50%),
+  radial-gradient(at 13% 16%, hsla(90,45%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 81% 19%, hsla(150,33%,67%,1) 0px, transparent 50%),
+  radial-gradient(at 88% 83%, hsla(85,20%,62%,1) 0px, transparent 50%);
 }
 /*Header 1 Welcome header*/
 h1 {
@@ -45,7 +48,7 @@ p {
 /*Navigation bar*/
 
 .navbar {
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(244, 238, 184);
   color: black;
   display: flex;
   justify-content: space-around;
